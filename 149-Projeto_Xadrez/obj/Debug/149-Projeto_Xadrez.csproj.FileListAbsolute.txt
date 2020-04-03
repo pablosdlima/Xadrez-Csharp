@@ -1,0 +1,7 @@
+F:\Udemy\Curso C#\12 - Sistema de jogo de xadrez\149-Projeto_Xadrez\149-Projeto_Xadrez\bin\Debug\149-Projeto_Xadrez.exe.config
+F:\Udemy\Curso C#\12 - Sistema de jogo de xadrez\149-Projeto_Xadrez\149-Projeto_Xadrez\bin\Debug\149-Projeto_Xadrez.exe
+F:\Udemy\Curso C#\12 - Sistema de jogo de xadrez\149-Projeto_Xadrez\149-Projeto_Xadrez\bin\Debug\149-Projeto_Xadrez.pdb
+F:\Udemy\Curso C#\12 - Sistema de jogo de xadrez\149-Projeto_Xadrez\149-Projeto_Xadrez\obj\Debug\149-Projeto_Xadrez.csprojAssemblyReference.cache
+F:\Udemy\Curso C#\12 - Sistema de jogo de xadrez\149-Projeto_Xadrez\149-Projeto_Xadrez\obj\Debug\149-Projeto_Xadrez.csproj.CoreCompileInputs.cache
+F:\Udemy\Curso C#\12 - Sistema de jogo de xadrez\149-Projeto_Xadrez\149-Projeto_Xadrez\obj\Debug\149-Projeto_Xadrez.exe
+F:\Udemy\Curso C#\12 - Sistema de jogo de xadrez\149-Projeto_Xadrez\149-Projeto_Xadrez\obj\Debug\149-Projeto_Xadrez.pdb
