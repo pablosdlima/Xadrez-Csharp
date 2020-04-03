@@ -13,7 +13,12 @@ namespace _149_Projeto_Xadrez
         static void Main(string[] args)
         {
             mdTabuleiro tabuleiro = new mdTabuleiro(8, 8);
+
+            Tela.imprimirTabuleiro(tabuleiro);
+
             Console.ReadLine();
+
+
         }
     }
 }

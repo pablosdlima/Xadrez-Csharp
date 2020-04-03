@@ -19,5 +19,10 @@ namespace _149_Projeto_Xadrez.tabuleiro
             NColunas = nColunas;
             pecas = new Peca[nLinhas, nColunas]; //instancia da matriz associada Peca.
         }
+
+        public Peca Peca(int nLinhas, int nColunas) //metodo para exibir propriedade privada.
+        {
+            return pecas[nLinhas, nColunas];
+        }
     }
 }
