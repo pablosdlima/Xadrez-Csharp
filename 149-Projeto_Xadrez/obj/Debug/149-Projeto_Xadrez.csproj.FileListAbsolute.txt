@@ -5,3 +5,10 @@ F:\Udemy\Curso C#\12 - Sistema de jogo de xadrez\149-Projeto_Xadrez\149-Projeto_
 F:\Udemy\Curso C#\12 - Sistema de jogo de xadrez\149-Projeto_Xadrez\149-Projeto_Xadrez\obj\Debug\149-Projeto_Xadrez.csproj.CoreCompileInputs.cache
 F:\Udemy\Curso C#\12 - Sistema de jogo de xadrez\149-Projeto_Xadrez\149-Projeto_Xadrez\obj\Debug\149-Projeto_Xadrez.exe
 F:\Udemy\Curso C#\12 - Sistema de jogo de xadrez\149-Projeto_Xadrez\149-Projeto_Xadrez\obj\Debug\149-Projeto_Xadrez.pdb
+C:\Users\Pablo\Desktop\149-Projeto_Xadrez\149-Projeto_Xadrez\bin\Debug\149-Projeto_Xadrez.exe.config
+C:\Users\Pablo\Desktop\149-Projeto_Xadrez\149-Projeto_Xadrez\bin\Debug\149-Projeto_Xadrez.exe
+C:\Users\Pablo\Desktop\149-Projeto_Xadrez\149-Projeto_Xadrez\bin\Debug\149-Projeto_Xadrez.pdb
+C:\Users\Pablo\Desktop\149-Projeto_Xadrez\149-Projeto_Xadrez\obj\Debug\149-Projeto_Xadrez.csprojAssemblyReference.cache
+C:\Users\Pablo\Desktop\149-Projeto_Xadrez\149-Projeto_Xadrez\obj\Debug\149-Projeto_Xadrez.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\149-Projeto_Xadrez\149-Projeto_Xadrez\obj\Debug\149-Projeto_Xadrez.exe
+C:\Users\Pablo\Desktop\149-Projeto_Xadrez\149-Projeto_Xadrez\obj\Debug\149-Projeto_Xadrez.pdb
