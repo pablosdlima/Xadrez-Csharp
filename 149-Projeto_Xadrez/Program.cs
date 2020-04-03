@@ -1,4 +1,5 @@
-﻿using _149_Projeto_Xadrez.Tabuleiro;
+﻿using _149_Projeto_Xadrez.tabuleiro;
+using _149_Projeto_Xadrez.Tabuleiro;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,8 @@ namespace _149_Projeto_Xadrez
     {
         static void Main(string[] args)
         {
-            Posicao p = new Posicao(3, 4);
-            Console.WriteLine("Posição: " + p);
+            mdTabuleiro tabuleiro = new mdTabuleiro(8, 8);
+            Console.ReadLine();
         }
     }
 }
