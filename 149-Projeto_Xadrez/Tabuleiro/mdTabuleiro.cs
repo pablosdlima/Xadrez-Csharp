@@ -24,5 +24,11 @@ namespace _149_Projeto_Xadrez.tabuleiro
         {
             return pecas[nLinhas, nColunas];
         }
+
+        public void colocarPeca(Peca p, Posicao pos)
+        {
+            pecas[pos.Linha, pos.Coluna] = p; //joga a peça P na posição indicada.
+            p.Posicao = pos; //posição de p = pos
+        }
     }
 }

@@ -20,12 +20,12 @@ namespace _149_Projeto_Xadrez.Tabuleiro
 
         }
 
-        public Peca(Cor cor, Posicao posicao, mdTabuleiro tabuleiro)
+        public Peca(mdTabuleiro tabuleiro, Cor cor)
         {
             int qteMovimentos = 0;
             QteMovimentos = qteMovimentos;
             Cor = cor;
-            Posicao = posicao;
+            Posicao = null;
             Tabuleiro = tabuleiro;
         }
     }
