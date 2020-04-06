@@ -42,6 +42,18 @@ namespace _149_Projeto_Xadrez.tabuleiro
             p.Posicao = pos; //posição de p = pos
         }
 
+        public Peca retirarPeca(Posicao pos)
+        {
+            if(Peca(pos) == null)
+            {
+                return null;
+            }
+            Peca aux = Peca(pos);
+            aux.Posicao = null;
+            pecas[pos.Linha, pos.Coluna] = null;
+            return aux;
+        }
+
         public bool existePeca(Posicao pos)
         {
             validarPosicao(pos);

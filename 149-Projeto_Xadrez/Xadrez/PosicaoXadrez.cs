@@ -9,10 +9,10 @@ namespace _149_Projeto_Xadrez.Xadrez
 {
     class PosicaoXadrez
     {
-        public char PxColuna { get; set; }
-        public char PxLinha { get; set; }
+        public char PxColuna { get; private set; }
+        public int PxLinha { get; set; }
 
-        public PosicaoXadrez(char pxColuna, char pxLinha)
+        public PosicaoXadrez(char pxColuna, int pxLinha)
         {
             PxColuna = pxColuna;
             PxLinha = pxLinha;

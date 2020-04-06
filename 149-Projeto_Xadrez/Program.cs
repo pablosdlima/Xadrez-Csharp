@@ -15,12 +15,22 @@ namespace _149_Projeto_Xadrez
         {
             try
             {
-                mdTabuleiro tabuleiro = new mdTabuleiro(8, 8);//tamanho do tabuleiro.
-                tabuleiro.colocarPeca(new Torre(tabuleiro, Cor.Preto), new Posicao(0, 0)); //add peça em
-                tabuleiro.colocarPeca(new Torre(tabuleiro, Cor.Preto), new Posicao(1, 3)); //add peça em
-                tabuleiro.colocarPeca(new Rei(tabuleiro, Cor.Preto), new Posicao(2, 4)); //add peça em
-                tabuleiro.colocarPeca(new Rei(tabuleiro, Cor.Branco), new Posicao(2, 1)); //add peça em
-                Tela.imprimirTabuleiro(tabuleiro);
+                PartidaDeXadrez partida = new PartidaDeXadrez();
+                while (!partida.terminada)
+                {
+                    Console.Clear();
+                    Tela.imprimirTabuleiro(partida.tab);
+
+                    Console.Write("Origem: ");
+                    Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
+                    Console.Write("Destino: ");
+                    Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
+
+                    partida.executaMovimento(origem, destino);
+                    
+                }
+
+                Tela.imprimirTabuleiro(partida.tab);
             }
             catch (TabuleiroException e)
             {

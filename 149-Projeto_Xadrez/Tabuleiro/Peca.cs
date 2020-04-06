@@ -28,5 +28,10 @@ namespace _149_Projeto_Xadrez.Tabuleiro
             Posicao = null;
             Tabuleiro = tabuleiro;
         }
+
+        public void incrementarQteMovimentos()
+        {
+            QteMovimentos++;
+        }
     }
 }

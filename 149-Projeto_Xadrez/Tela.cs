@@ -1,5 +1,6 @@
 ﻿using _149_Projeto_Xadrez.tabuleiro;
 using _149_Projeto_Xadrez.Tabuleiro;
+using _149_Projeto_Xadrez.Xadrez;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,19 +19,27 @@ namespace _149_Projeto_Xadrez
                 for(int j = 0; j < tabuleiro.NColunas; j++) {
                     if(tabuleiro.Peca(i, j) == null)
                     {
-                        Console.Write("----  ");
+                        Console.Write("- ");
                     }
                     else
                     {
-                        Tela.imprimirPeca(tabuleiro.Peca(i, j));
-                        Console.Write("");
+                        imprimirPeca(tabuleiro.Peca(i, j));
+                        Console.Write(" ");
                     }
                 }
                 Console.WriteLine();
                 Console.WriteLine();
             }
-            Console.WriteLine("   a     b     c     d     e     f     g     h");
+            Console.WriteLine(" a b c d e f g h");
         }//metodo para imprimir tabuleiro na tela
+
+        public static PosicaoXadrez lerPosicaoXadrez()
+        {
+            string s = Console.ReadLine();
+            char coluna = s[0];
+            int linha = int.Parse(s[1] + "");
+            return new PosicaoXadrez(coluna, linha);
+        }
 
         public static void imprimirPeca(Peca peca)
         {
