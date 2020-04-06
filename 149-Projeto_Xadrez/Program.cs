@@ -19,6 +19,7 @@ namespace _149_Projeto_Xadrez
                 tabuleiro.colocarPeca(new Torre(tabuleiro, Cor.Preto), new Posicao(0, 0)); //add peça em
                 tabuleiro.colocarPeca(new Torre(tabuleiro, Cor.Preto), new Posicao(1, 3)); //add peça em
                 tabuleiro.colocarPeca(new Rei(tabuleiro, Cor.Preto), new Posicao(2, 4)); //add peça em
+                tabuleiro.colocarPeca(new Rei(tabuleiro, Cor.Branco), new Posicao(2, 1)); //add peça em
                 Tela.imprimirTabuleiro(tabuleiro);
             }
             catch (TabuleiroException e)
