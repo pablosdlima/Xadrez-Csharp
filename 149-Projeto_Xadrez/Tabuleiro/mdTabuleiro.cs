@@ -39,7 +39,7 @@ namespace _149_Projeto_Xadrez.tabuleiro
             }
 
             pecas[pos.Linha, pos.Coluna] = p; //joga a peça P na posição indicada.
-            p.Posicao = pos; //posição de p = pos
+            p.posicao = pos; //posição de p = pos
         }
 
         public Peca retirarPeca(Posicao pos)
@@ -49,7 +49,7 @@ namespace _149_Projeto_Xadrez.tabuleiro
                 return null;
             }
             Peca aux = Peca(pos);
-            aux.Posicao = null;
+            aux.posicao = null;
             pecas[pos.Linha, pos.Coluna] = null;
             return aux;
         }

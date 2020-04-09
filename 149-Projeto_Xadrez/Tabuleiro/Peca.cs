@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace _149_Projeto_Xadrez.Tabuleiro
 {
-    class Peca
+    abstract class Peca
     {
 
-        public int QteMovimentos { get; set; }
-        public Cor Cor { get; set; } //associação da ENUM Cor
-        public Posicao Posicao { get; set; } //associação da classe Posicao
-        public mdTabuleiro Tabuleiro { get; set; } //associação da classe Tabuleiro
+        public int qteMovimentos { get; set; }
+        public Cor cor { get; set; } //associação da ENUM Cor
+        public Posicao posicao { get; set; } //associação da classe Posicao
+        public mdTabuleiro tabuleiro { get; set; } //associação da classe Tabuleiro
 
         public Peca()
         {
@@ -22,16 +22,18 @@ namespace _149_Projeto_Xadrez.Tabuleiro
 
         public Peca(mdTabuleiro tabuleiro, Cor cor)
         {
-            int qteMovimentos = 0;
-            QteMovimentos = qteMovimentos;
-            Cor = cor;
-            Posicao = null;
-            Tabuleiro = tabuleiro;
+            this.qteMovimentos = qteMovimentos;
+            this.cor = cor;
+            this.posicao = posicao;
+            this.tabuleiro = tabuleiro;
         }
+
+
+        public abstract bool[,] movimentosPossiveis();
 
         public void incrementarQteMovimentos()
         {
-            QteMovimentos++;
+            qteMovimentos++;
         }
     }
 }
