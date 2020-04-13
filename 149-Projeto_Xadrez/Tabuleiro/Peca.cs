@@ -28,12 +28,32 @@ namespace _149_Projeto_Xadrez.Tabuleiro
             this.tabuleiro = tabuleiro;
         }
 
-
-        public abstract bool[,] movimentosPossiveis();
-
         public void incrementarQteMovimentos()
         {
             qteMovimentos++;
         }
+
+        public bool existeMovimentosPossiveis()
+        {
+            bool[,] mat = movimentosPossiveis();
+            for (int i=0; i<tabuleiro.NLinhas; i++)
+            {
+                for (int j = 0; j < tabuleiro.NColunas; j++)
+                {
+                    if (mat[i, j])
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        public bool podeMoverPara(Posicao pos)
+        {
+            return movimentosPossiveis()[pos.Linha, pos.Coluna];
+        }
+
+        public abstract bool[,] movimentosPossiveis();
     }
 }
