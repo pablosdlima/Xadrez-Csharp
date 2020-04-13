@@ -21,7 +21,7 @@ namespace _149_Projeto_Xadrez
                     try
                     {
                         Console.Clear();
-                        Tela.imprimirTabuleiro(partida.tab);
+                        Tela.imprimirPartida(partida);
                         Console.WriteLine();
 
                         Console.WriteLine("Turno: " + partida.turno);
